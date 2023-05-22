@@ -2,7 +2,8 @@
 
 ### <div align="center"><code> Projeto em desenvolvimento durante meu estágio na @wdevel.web </code></div>
 ### <div align="center"><code> No momento estou aprendendo a usar: </code></div>
-### <div align="center"><code> PHP com XAMPP, Apache, jQuery, MySQL junto ao Workbench, HTML5 e Bootstrap </code></div>
+### <div align="center"><code> PHP com XAMPP, Apache, jQuery, </code></div>
+### <div align="center"><code> MySQL junto ao Workbench, HTML5 e Bootstrap </code></div>
 ### <div align="center"><code> aprendendo mais sobre jQuery e Bootstrap </code></div>
  
 
