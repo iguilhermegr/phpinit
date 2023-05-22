@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Profiles</h1>
+        <h1>Perfis</h1>
       </div>
       <div class="col-md-12">
         <form action="execute/profile/create.php" method="post">
