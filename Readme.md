@@ -50,6 +50,38 @@
 
 <br>
 <br>
+<br>
+
+<div align="center">
+    <h2>23.05.23</h2>
+    <h3> <blockquote> Corrigindo algum problemas </blockquote> </h3>
+</div>
+
+<h3><code> Tive algumas dificuldades na questão de partir os códigos e localizar os diretórios, mas depois entendi a lógica </code></h3>
+
+<br>
+<br>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th> Erros </th>
+                <th> Mais informações </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1 </td>
+                <td> Comecei a organizar o código e a parte de "CREATE" e "DELETE" do profile pra poder aplicar esse exemplo às outras tabelas. Fiz essa organização pois devido as alterações na estruturação do código que fiz ontem, os diretórios ficaram bagunçados. Também fiz partições de código pra trazer uma facilidade melhor e diminuir mais ainda a quantidade de código, fiz a partição do head. Ao final da tarde fiz um organograma pra apresentar melhor e me organizar melhor as etapas que irei seguir no projeto. Também anotei algumas idéias pra usar na estilização do projeto e já estudei e li um pouco da Documentação do Bootstrap para me familiarizar melhor. Vendo o código que subi neste dia vai dar pra notar que ainda há muitos supostos "erros" no código ou uma certa bagunça, mas é por conta de eu ainda não ter terminado, dei início hoje. O único problema ou erro que tive foi no include do header e footer, até eu ver que isso estava ocorrendo em todos os arquivos. Foi a partir daí que me levou a fazer organização dos códigos e leitura de diretórios </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+	
+<br>
+<br>
+<br>
 
 <div align="center">
     <h2>dd.mm.aa</h2>
@@ -77,3 +109,4 @@
         </tbody>
     </table>
 </div>
+
