@@ -1,11 +1,11 @@
 <?php
 
-require_once("../../connection.php");
+require_once("../../database/connection.php");
 
 $name = isset($_POST["name"]) ? $_POST["name"] : NULL;
 
 if (!$name || $name == "") {
-    header("Location: ../../profile.php?error=Nome é obrigatório");
+    header("Location: ../../@me/profile.php?error=Nome é obrigatório");
     exit;
 }
 
@@ -14,10 +14,10 @@ $stmt = Db::connection()->prepare($sql);
 $stmt->bindParam(":name", $name, PDO::PARAM_STR);
 
 if($stmt->execute()){
-  header("Location: ../../profile.php?success=Perfil cadastrado com sucesso");
+  header("Location: ../../@me/profile.php?success=Perfil cadastrado com sucesso");
   exit;
 }else{
-  header("Location: ../../profile.php?error=Ocorreu um erro ao cadastrar o perfil");
+  header("Location: ../../@me/profile.php?error=Ocorreu um erro ao cadastrar o perfil");
   exit;
 }
 
