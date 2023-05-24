@@ -13,6 +13,12 @@
             <tr>
                 <td><a href="https://github.com/guidsribeiro/phpinit/tree/report#220523" alt="">22.05.23</a></td>
             </tr>
+            <tr>
+                <td><a href="https://github.com/guidsribeiro/phpinit/tree/report#230523" alt="">23.05.23</a></td>
+            </tr>
+	    <tr>
+                <td><a href="https://github.com/guidsribeiro/phpinit/tree/report#240523" alt="">24.05.23</a></td>
+            </tr>
         </tbody>
     </table>      
 </div>
