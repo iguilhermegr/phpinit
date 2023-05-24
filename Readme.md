@@ -84,6 +84,37 @@
 <br>
 
 <div align="center">
+    <h2>24.05.23</h2>
+    <h3> <blockquote> Basicamente ainda reestruturando os diretórios </blockquote> </h3>
+</div>
+
+<h3><code> Sem erros, dúvidas ou problemas </code></h3>
+
+<br>
+<br>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th> Erros </th>
+                <th> Mais informações </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Nenhum </td>
+                <td> Ainda fazendo a reestruturação dos diretórios e entreguei meu contrato com a Empresa </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+	
+<br>
+<br>
+<br>
+
+<div align="center">
     <h2>dd.mm.aa</h2>
     <h3> <blockquote> Título do relatório </blockquote> </h3>
 </div>
