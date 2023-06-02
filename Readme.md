@@ -17,7 +17,10 @@
                 <td><a href="https://github.com/guidsribeiro/phpinit/tree/report#230523" alt="">23.05.23</a></td>
             </tr>
 	    <tr>
-                <td><a href="https://github.com/guidsribeiro/phpinit/tree/report#240523" alt="">24.05.23</a></td>
+                <td><a href="https://github.com/guidsribeiro/phpinit/tree/report#240523" alt="">26.05.23</a></td>
+            </tr>
+	    <tr>
+                <td><a href="https://github.com/guidsribeiro/phpinit/tree/report#020623" alt="">02.06.23</a></td>
             </tr>
         </tbody>
     </table>      
@@ -90,7 +93,7 @@
 <br>
 
 <div align="center">
-    <h2>24.05.23</h2>
+    <h2>26.05.23</h2>
     <h3> <blockquote> Basicamente ainda reestruturando os diretórios </blockquote> </h3>
 </div>
 
@@ -111,6 +114,37 @@
             <tr>
                 <td> Nenhum </td>
                 <td> Ainda fazendo a reestruturação dos diretórios e entreguei meu contrato com a Empresa </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+	
+<br>
+<br>
+<br>
+
+<div align="center">
+    <h2>02.06.23</h2>
+    <h3> <blockquote> CRUD pronto da página de perfis e profissões </blockquote> </h3>
+</div>
+
+<h3><code> Tive apenas alguns problemas nas confirmações de exclusão e edição de dados por botões, então o @luizpaulogroup me ensinou a usar o modal com o Bootstrap 5. </code></h3>
+
+<br>
+<br>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th> Erros </th>
+                <th> Mais informações </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1 </td>
+                <td> Após isso terminei a estilização básica da página, arrumei o footer e alinhei todos os elementos. Termminei primeiramente o editar e sua confirmação, fiz a confirmação da edição e exclusão de perfis. Feito isso terminei e revi a estilização de tudo e com fiz um novo modal pra criar perfis ao invés de inserir diretamente em um input fixo. Após tudo isso a página de perfis estava terminada. Depois fiz isso tudo com a página de profissões e terminei às 17:48 da tarde. </td>
             </tr>
         </tbody>
     </table>
@@ -146,4 +180,3 @@
         </tbody>
     </table>
 </div>
-
