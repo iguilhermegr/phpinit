@@ -1,4 +1,4 @@
-<?php $title = "profession"; ?>
+<?php $title = "Profession"; ?>
 
 <?php include_once("../../includes/header.php"); ?>
 
@@ -43,11 +43,12 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Nome da nova profissão</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Nova Profissão</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <input style="margin-right: 10px;" type="text" class="form-control" name="name">
+                        <label for="name" class="form-label">Nome</label>
+                        <input placeholder="Nome" style="margin-right: 10px;" type="text" class="form-control" name="name">
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -79,9 +80,9 @@
                 <td><?php echo $profession['name']; ?></td>
                 <td>
                   <a class="link-offset-1" href="edit.php?id=<?php echo $profession['id']; ?>">Editar</a>
-                  <a class="link-offset-1" href="#" data-bs-toggle="modal" data-bs-target="#modalExcluir">Excluir</a>
+                  <a class="link-offset-1" href="#" data-bs-toggle="modal" data-bs-target="#excluir-<?php echo $profession['id']; ?>">Excluir</a>
 
-                  <div class="modal fade" id="modalExcluir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal fade" id="excluir-<?php echo $profession['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -93,7 +94,7 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        <a href="../../exes/profession/delete.php?id=<?php echo $profession['id']; ?>"><button type="submit" class="btn btn-success">Confirmar</button></a>
+                        <a class="btn btn-success" href="../../exes/profession/delete.php?id=<?php echo $profession['id']; ?>">Confirmar</a>
                       </div>
                     </div>
                   </div>

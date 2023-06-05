@@ -5,7 +5,7 @@ require_once("../../database/connection.php");
 $name = isset($_POST["name"]) ? $_POST["name"] : NULL;
 
 if (!$name || $name == "") {
-  header("Location: ../../@me/profile.php?error=Nome é obrigatório");
+  header("Location: ../../@me/profile?error=Nome é obrigatório");
   exit;
 }
 

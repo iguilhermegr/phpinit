@@ -5,11 +5,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
   <title>Início em PHP</title>
 </head>
 
 <body style="background-color: #24273a; position:absolute; z-index:11; height: 100%; width: 100%;">
+  <br>
   <h1 class="text-center text-light">Início em PHP</h1>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <h2 class="underline text-light text-center">Seja bem vindo ao painel de controle de um projeto básico em PHP</h2>

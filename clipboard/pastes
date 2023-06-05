@@ -1,0 +1,10 @@
+SELECT
+  `user`.*,
+  `profile`.`name` AS `profile_name`,
+  `profession`.`name` AS `profession_name`
+FROM
+  `user`
+INNER JOIN `profile` ON `profile`.`id` = `user`.`profile_id`
+INNER JOIN `profession` ON `profession`.`id` = `user`.`profession_id`
+
+<?php echo $profession['id'] == $user['profession_id'] ? 'selected' : ''; ?> 
