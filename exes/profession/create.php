@@ -5,7 +5,7 @@ require_once("../../database/connection.php");
 $name = isset($_POST["name"]) ? $_POST["name"] : NULL;
 
 if (!$name || $name == "") {
-  header("Location: ../../@me/profession.php?error=Nome é obrigatório");
+  header("Location: ../../@me/profession?error=Nome é obrigatório");
   exit;
 }
 
@@ -17,7 +17,7 @@ if($stmt->execute()){
   header("Location: ../../@me/profession?success=✅ Profissão cadastrada com sucesso");
   exit;
 }else{
-  header("Location: ../../@me/profession.php?error=❎ Ocorreu um erro ao cadastrar a profissão");
+  header("Location: ../../@me/profession?error=❎ Ocorreu um erro ao cadastrar a profissão");
   exit;
 }
 

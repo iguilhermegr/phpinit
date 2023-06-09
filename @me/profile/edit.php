@@ -1,6 +1,7 @@
 <?php $title = "Profile Edit"; ?>
 
 <?php include_once("../../includes/header.php"); ?>
+<section><a href="./" style="margin-top: 30px; margin-left: 400px;" class="d-inline-flex p-2 btn btn-secondary btn-sm fs-9 mb-3">← VOLTAR</a></section>
 
   <?php
   $id = isset($_GET["id"]) && $_GET["id"] ? $_GET["id"] : NULL;

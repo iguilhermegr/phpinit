@@ -17,7 +17,7 @@ if($stmt->execute()){
   header("Location: ../../@me/profile?success=✅ Perfil cadastrado com sucesso");
   exit;
 }else{
-  header("Location: ../../@me/profile.php?error=❎ Ocorreu um erro ao cadastrar o perfil");
+  header("Location: ../../@me/profile.?error=❎ Ocorreu um erro ao cadastrar o perfil");
   exit;
 }
 

@@ -5,13 +5,13 @@ $id = isset($_POST["id"]) ? $_POST["id"] : NULL;
 $name = isset($_POST["name"]) ? $_POST["name"] : NULL;
 
 if (!$id || $id == "") {
-  header("Location: ../../@me/profile/index.php?error=⁉ Perfil não encontrado para alterar");
+  header("Location: ../../@me/profile/edit.php?error=⁉ Perfil não encontrado para alterar");
   exit;
 }
 
 if (!$name || $name == "") {
-    header("Location: ../../@me/profile/edit.php?id={$id}&error=🛑 Nome é obrigatório");
-    exit;
+  header("Location: ../../@me/profile/edit.php?id={$id}&error=🛑 Nome é obrigatório");
+  exit;
 }
 
 $sql = ("UPDATE `profile` SET `name` = :name WHERE `id` = :id");

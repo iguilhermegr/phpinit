@@ -15,18 +15,21 @@
       <div class="container">
         <a class="navbar-brand" href="/project"><img src="../../imgs/layout.png" style="width: 40px; height: 40px;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">≡</span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../profile">perfis</a>
+              <a class="nav-link" href="/project">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../profession/">profissões</a>
+              <a class="nav-link" href="../profile">Perfis</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../user/">usuários</a>
+              <a class="nav-link" href="../profession/">Profissões</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../user/">Usuários</a>
             </li>
           </ul>
         </div>
