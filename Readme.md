@@ -1,10 +1,9 @@
 # <p align="center"> Primeiro Projeto em PHP 🐘</p> 
 
-### <div align="center"><code> Projeto em desenvolvimento durante meu estágio na @wdevel.web </code></div>
-### <div align="center"><code> No momento estou aprendendo a usar: </code></div>
+### <div align="center"><code> Projeto em desenvolvimento durante meu estágio na @wdevel.web em 2023 </code></div>
+### <div align="center"><code> Tecnologias: </code></div>
 ### <div align="center"><code> PHP com XAMPP, Apache, </code></div>
 ### <div align="center"><code> MySQL junto ao Workbench, HTML5, Bootstrap </code></div>
-### <div align="center"><code> e aprendendo mais sobre jQuery </code></div>
  
 
 -------------------------------------------------------------------------------------------------------------------------------------------
